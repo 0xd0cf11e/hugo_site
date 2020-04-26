@@ -1,41 +1,43 @@
-baseUrl: "https://0xd0cf11e.github.io"
-languageCode: en-us
-theme: terminal
-paginate: 5
+baseURL: "https://0xd0cf11e.github.io"
+title: Origin
+#author: Andrey Parfenov
+copyright: 'Hugo theme by © 2020, Andrey Parfenov'
+paginate: 4
+languageCode: en
+DefaultContentLanguage: en
+enableInlineShortcodes: true
+footnoteReturnLinkContents: ^
+theme: origin
 publishDir: "0xd0cf11e.github.io"
-
 params:
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName: posts
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor: pink
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems: 3
-  # show selector to switch language
-  showLanguageSelector: false
-  # set theme to full screen width
-  fullWidthTheme: false
-  # center theme with default width
-  centerTheme: false
-
-languages:
-  en:
-    languageName: English
-    title: Title
-    subtitle: sudosu
-    keywords: ''
-    menuMore: Show more
-    readMore: Read more
-    readOtherPosts: Read other posts
-
-    params:
-      logo:
-        logoText: sudosu
-        logoHomeLink: /
-
-    menu:
-      main:
-      - identifier: about
-        name: About
-        url: /about
-
+  description: simple hugo theme
+  featured: true
+  cssonly: true
+  socials:
+    #facebook: ''
+    twitter: 'https://twitter.com/sud0suw'
+    #instagram: ''
+    #youtube: ''
+    github: 'https://github.com/0xd0cf11e'
+    #gitlab: ''
+    linkedin: 'https://www.linkedin.com/in/suweera-de-souza-b5216321'
+    #slack: ''
+    #stackoverflow: ''
+    #medium: ''
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+markup:
+  highlight:
+    style: github
+    tabWidth: 4
+  goldmark:
+    renderer:
+      unsafe: true

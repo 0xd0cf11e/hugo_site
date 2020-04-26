@@ -4,3 +4,6 @@
 [submodule "0xd0cf11e.github.io"]
 	path = 0xd0cf11e.github.io
 	url = git@github.com:0xd0cf11e/0xd0cf11e.github.io.git
+[submodule "themes/origin"]
+	path = themes/origin
+	url = https://gitlab.com/asleeppiano/origin-hugo-theme.git
