@@ -1,13 +1,16 @@
 baseURL: "https://0xd0cf11e.github.io"
-title: Origin
-#author: Andrey Parfenov
-copyright: 'Hugo theme by © 2020, Andrey Parfenov'
+title: sud0suw
+author: Suweera De Souza
+#copyright: 'Hugo theme by © 2020, Andrey Parfenov'
 paginate: 4
 languageCode: en
 DefaultContentLanguage: en
 enableInlineShortcodes: true
 footnoteReturnLinkContents: ^
 theme: origin
+# To learn more about hosting on github
+# - https://gohugo.io/hosting-and-deployment/hosting-on-github/
+# - https://inside.getambassador.com/creating-and-deploying-your-first-hugo-site-to-github-pages-1e1f496cf88d
 publishDir: "0xd0cf11e.github.io"
 params:
   description: simple hugo theme
